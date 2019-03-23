@@ -69,3 +69,6 @@ Assets/Editor Default Resources.meta
 Assets/Editor.meta
 Assets/Resources
 Assets/StreamingAssets/Configs
+Assembly-CSharp.csproj
+*.csproj
+*.csproj
