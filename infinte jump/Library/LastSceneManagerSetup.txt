@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/InfiniteJumper/Horizontal/Scenes/Game_Horizontal.unity
-  isLoaded: 1
-  isActive: 1

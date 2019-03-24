@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Jigsaw/Demo/demo.unity
-  isLoaded: 1
-  isActive: 1

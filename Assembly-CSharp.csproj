@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_8;UNITY_2018_3;UNITY_2018;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;ENABLE_VSTU;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_8;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;ENABLE_VSTU;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -48,7 +48,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2018.3.8f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -60,6 +60,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\Ball.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\Block\Block.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\Block\DropPowerUpOnHit.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\EmitParticlesOnHit.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\Paddle.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\PowerUps\ChangeSize.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\PowerUps\ExtraBall.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\PowerUps\PowerUpBase.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\RandomColor.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\ScreenFlash\ScreenFlash.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\ScreenFlash\ScreenFlashNotifier.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\Shake\ScreenShaker.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\Shake\ScreenShakerNotifier.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\Sound&amp;Music\PlayMusic.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\Sound&amp;Music\PlaySoundOnHit_Pitch.cs" />
+    <Compile Include="Assets\Breakout Game Starter Kit\Assets\Scripts\Sound&amp;Music\PlaySoundOnHit_Simple.cs" />
     <Compile Include="Assets\CartoonSkyboxMegaPack\CartoonSunset\SmoothFollow.cs" />
     <Compile Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AmbientOcclusion\AmbientOcclusion.cs" />
     <Compile Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AmbientOcclusion\Helpers\PropertyObserver.cs" />
@@ -130,10 +147,77 @@
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineShot.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
     <Compile Include="Assets\GameEntrance1.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\Darkness.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\DataPersistence.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\FixedRatio.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\FollowTarget.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\GameOver.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\Level\LevelBuilder.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\Level\LevelChuckPreBuild.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\Level\LevelChunk.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\Level\LevelChunkManager.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\Level\LevelLoader.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\Level\Shadow.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\Level\TilePrefab.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\Platform.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\Player\Head.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\UI\FadeIn.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\UI\HighScore.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\UI\MainMenu.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\UI\Score.cs" />
+    <Compile Include="Assets\InfiniteJumper\Horizontal\Scripts\UI\UIFlash.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\Darkness.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\DataPersistence.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\FixedRatio.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\FollowTarget.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\GameOver.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\Level\LevelBuilder.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\Level\LevelChuckPreBuild.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\Level\LevelChunk.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\Level\LevelChunkManager.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\Level\LevelLoader.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\Level\Shadow.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\Level\TilePrefab.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\Platform.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\Player\Head.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\UI\FadeIn.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\UI\HighScore.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\UI\MainMenu.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\UI\Score.cs" />
+    <Compile Include="Assets\InfiniteJumper\Vertical\Scripts\UI\UIFlash.cs" />
+    <Compile Include="Assets\Jigsaw\Demo\Demo.cs" />
+    <Compile Include="Assets\Jigsaw\Demo\DemoJigsawPuzzle.cs" />
+    <Compile Include="Assets\Jigsaw\Demo\DemoJigsawPuzzle_mac_ios.cs" />
+    <Compile Include="Assets\Jigsaw\Standard Assets\Scripts\JigsawMain.cs" />
+    <Compile Include="Assets\Jigsaw\Standard Assets\Scripts\JigsawPuzzle.cs" />
     <Compile Include="Assets\Monster.cs" />
     <Compile Include="Assets\MonsterManager.cs" />
+    <Compile Include="Assets\OneMinuteGui\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\Script\Example_UI\ClearConditionUI.cs" />
+    <Compile Include="Assets\Script\Example_UI\ConditionUI.cs" />
+    <Compile Include="Assets\Script\Example_UI\OverConditionUI.cs" />
+    <Compile Include="Assets\Script\Example_UI\ScoreUI.cs" />
     <Compile Include="Assets\Script\FSM\State.cs" />
     <Compile Include="Assets\Script\FSM\StateSystem.cs" />
+    <Compile Include="Assets\Script\GameSystem\BlockDestroyerMissile.cs" />
+    <Compile Include="Assets\Script\GameSystem\Blocks.cs" />
+    <Compile Include="Assets\Script\GameSystem\ClearCondition\GameClearCondition.cs" />
+    <Compile Include="Assets\Script\GameSystem\ClearCondition\GameClearCondition_Blocks.cs" />
+    <Compile Include="Assets\Script\GameSystem\ClearCondition\GameClearCondition_Score.cs" />
+    <Compile Include="Assets\Script\GameSystem\CreamBlock.cs" />
+    <Compile Include="Assets\Script\GameSystem\DestroySelf.cs" />
+    <Compile Include="Assets\Script\GameSystem\GameMessage.cs" />
+    <Compile Include="Assets\Script\GameSystem\GameSystem.cs" />
+    <Compile Include="Assets\Script\GameSystem\GameSystemMessage.cs" />
+    <Compile Include="Assets\Script\GameSystem\GameUpdatePause.cs" />
+    <Compile Include="Assets\Script\GameSystem\Match4Blocks.cs" />
+    <Compile Include="Assets\Script\GameSystem\Match5Blocks.cs" />
+    <Compile Include="Assets\Script\GameSystem\MatchCrossBlocks.cs" />
+    <Compile Include="Assets\Script\GameSystem\OverCondition\GameOverCondition.cs" />
+    <Compile Include="Assets\Script\GameSystem\OverCondition\GameOverCondition_Move.cs" />
+    <Compile Include="Assets\Script\GameSystem\OverCondition\GameOverCondition_Time.cs" />
     <Compile Include="Assets\Script\Player\Player.cs" />
     <Compile Include="Assets\Script\Player\PlayerData.cs" />
     <Compile Include="Assets\Script\PlayerState\IdleState.cs" />
@@ -153,21 +237,46 @@
     <Compile Include="Assets\Script\UI\Quit.cs" />
     <Compile Include="Assets\Script\UI\QuitGame.cs" />
     <Compile Include="Assets\Script\UI\Return.cs" />
+    <None Include="Assets\InfiniteJumper\Resources\Vertical_Levels\level3.txt" />
+    <None Include="Assets\InfiniteJumper\Resources\Vertical_Levels\level5.txt" />
     <None Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\ScreenSpaceReflection\Resources\ScreenSpaceReflection.shader" />
+    <None Include="Assets\OneMinuteGui\Font\CarterOne\OFL.txt" />
+    <None Include="Assets\InfiniteJumper\Resources\Vertical_Levels\level4.txt" />
     <None Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\DepthOfField\Resources\DepthOfField.shader" />
+    <None Include="Assets\InfiniteJumper\Resources\Horizontal_Levels\level2.txt" />
     <None Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AmbientOcclusion\Resources\AmbientOcclusion.shader" />
     <None Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AntiAliasing\FXAA\Resources\FXAA.shader" />
     <None Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramRender.shader" />
+    <None Include="Assets\InfiniteJumper\Resources\Horizontal_Levels\level4.txt" />
+    <None Include="Assets\InfiniteJumper\Resources\Horizontal_Levels\level3.txt" />
+    <None Include="Assets\InfiniteJumper\Resources\Vertical_Levels\level6.txt" />
+    <None Include="Assets\InfiniteJumper\Resources\Vertical_Levels\level1.txt" />
     <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
     <None Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\AntiAliasing\SMAA\Resources\SMAA.shader" />
+    <None Include="Assets\InfiniteJumper\Resources\Vertical_Levels\emptyLevel.txt" />
     <None Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\Bloom\Resources\Bloom.shader" />
+    <None Include="Assets\InfiniteJumper\Documentation\Release Notes.txt" />
+    <None Include="Assets\Jigsaw\-Read-Me-.txt" />
+    <None Include="Assets\InfiniteJumper\Resources\Vertical_Levels\level7.txt" />
+    <None Include="Assets\InfiniteJumper\Resources\Horizontal_Levels\level6.txt" />
+    <None Include="Assets\InfiniteJumper\Resources\Horizontal_Levels\emptyLevel.txt" />
+    <None Include="Assets\InfiniteJumper\Resources\Vertical_Levels\level2.txt" />
+    <None Include="Assets\Jigsaw\Materials\shaderGrayColored.shader" />
+    <None Include="Assets\InfiniteJumper\Resources\Horizontal_Levels\level8.txt" />
     <None Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.shader" />
+    <None Include="Assets\InfiniteJumper\Resources\Horizontal_Levels\level7.txt" />
     <None Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\DepthOfField\Resources\MedianFilter.shader" />
     <None Include="Assets\Resources\Role\Toon Barbarian\Read me.txt" />
     <None Include="Assets\Resources\Role\Toon Knight\Read me.txt" />
     <None Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\DepthOfField\Resources\BokehSplatting.shader" />
+    <None Include="Assets\InfiniteJumper\Resources\Horizontal_Levels\level5.txt" />
     <None Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\LensAberrations\Resources\LensAberrations.shader" />
+    <None Include="Assets\TexturePacker\Readme.txt" />
     <None Include="Assets\CartoonTown-LowPolyAssets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramCompute.compute" />
+    <None Include="Assets\Jigsaw\Materials\shaderTransparentGrayColored.shader" />
+    <None Include="Assets\InfiniteJumper\Resources\Horizontal_Levels\level1.txt" />
+    <None Include="Assets\InfiniteJumper\Documentation\Horizontal and Vertical Games.txt" />
+    <None Include="Assets\InfiniteJumper\Resources\Vertical_Levels\level8.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/Unity Project/Li/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
