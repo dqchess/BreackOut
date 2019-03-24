@@ -67,21 +67,37 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W) | Input.GetKey(KeyCode.UpArrow)) //前
+        //if (Input.GetKey(KeyCode.W) | Input.GetKey(KeyCode.UpArrow)) //前
+        //{
+        //    this.transform.Translate(Vector3.forward * m_speed * Time.deltaTime);
+        //}
+        //if (Input.GetKey(KeyCode.S) | Input.GetKey(KeyCode.DownArrow)) //后
+        //{
+        //    this.transform.Translate(Vector3.forward * -m_speed * Time.deltaTime);
+        //}
+        //if (Input.GetKey(KeyCode.A) | Input.GetKey(KeyCode.LeftArrow)) //左
+        //{
+        //    this.transform.Translate(Vector3.right * -m_speed * Time.deltaTime);
+        //}
+        //if (Input.GetKey(KeyCode.D) | Input.GetKey(KeyCode.RightArrow)) //右
+        //{
+        //    this.transform.Translate(Vector3.right * m_speed * Time.deltaTime);
+        //}
+        if (Input.GetMouseButtonDown(0))
         {
-            this.transform.Translate(Vector3.forward * m_speed * Time.deltaTime);
-        }
-        if (Input.GetKey(KeyCode.S) | Input.GetKey(KeyCode.DownArrow)) //后
-        {
-            this.transform.Translate(Vector3.forward * -m_speed * Time.deltaTime);
-        }
-        if (Input.GetKey(KeyCode.A) | Input.GetKey(KeyCode.LeftArrow)) //左
-        {
-            this.transform.Translate(Vector3.right * -m_speed * Time.deltaTime);
-        }
-        if (Input.GetKey(KeyCode.D) | Input.GetKey(KeyCode.RightArrow)) //右
-        {
-            this.transform.Translate(Vector3.right * m_speed * Time.deltaTime);
+            print("MouseDown1");
+            //1. 获取鼠标点击位置
+            //创建射线;从摄像机发射一条经过鼠标当前位置的射线
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            //发射射线
+            RaycastHit hitInfo = new RaycastHit();
+            LayerMask mask = 1 << 8;
+            if (Physics.Raycast(ray, out hitInfo, mask))
+            {
+                print("MouseDown2");
+                //获取碰撞点的位置
+                m_NavAgent.SetDestination(hitInfo.point);
+            }
         }
     }
     /*if (Input.GetKey(KeyCode.W))
